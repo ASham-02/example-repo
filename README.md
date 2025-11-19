@@ -15,5 +15,6 @@ print(f"str_to_int: {str_to_int}, type: {type(str_to_int)}")
 print(f"int_to_str: {int_to_str}, type: {type(int_to_str)}")
 print(f"float_to_str: {float_to_str}, type: {type(float_to_str)}")
 
-# This project contains example code created for learning Git and GitHub basics.  
-# It demonstrates version control, commits, and pushing to a remote repository.
+This is the Conservation Code I had previously created
+This project contains example code created for learning Git and GitHub basics.  
+It demonstrates version control, commits, and pushing to a remote repository.
