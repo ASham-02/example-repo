@@ -1,20 +1,23 @@
-num_float = 12.7
-num_int = 25
-num_str = "42"
+# Inventory Manager (Nike Warehouse Stock System)
 
-float_to_int = int(num_float)
-int_to_float = float(num_int)
-str_to_int = int(num_str)
+This repository contains a Python program called `inventory.py` that manages a simplified Nike warehouse stock system.
 
-int_to_str = str(num_int)
-float_to_str = str(num_float)
+# What the project does
 
-print(f"float_to_int: {float_to_int}, type: {type(float_to_int)}")
-print(f"int_to_float: {int_to_float}, type: {type(int_to_float)}")
-print(f"str_to_int: {str_to_int}, type: {type(str_to_int)}")
-print(f"int_to_str: {int_to_str}, type: {type(int_to_str)}")
-print(f"float_to_str: {float_to_str}, type: {type(float_to_str)}")
+The program reads shoe data from a text file (`inventory.txt`) and allows the user to:
 
-This is the Conservation Code I had previously created
-This project contains example code created for learning Git and GitHub basics.  
-It demonstrates version control, commits, and pushing to a remote repository.
+- View all shoe records
+- Add new shoes to the inventory
+- Restock the shoe with the lowest quantity
+- Search for a shoe by its code
+- Calculate the total value of each item (cost × quantity)
+- Show which product has the highest quantity in stock
+
+# Requirements
+
+- Python 3 installed on your system
+
+# Installation
+
+1. Clone or download this repository:
+   git clone https://github.com/ASham-02/example-repo
